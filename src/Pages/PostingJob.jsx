@@ -182,7 +182,9 @@ function PostingJob() {
         )}
 
         {errorCreateJob && (
-          <p className="text-red-500">{errorCreateJob.message}</p>
+          <p className="text-red-500">
+            {errorCreateJob?.message || "An error occurred"}
+          </p>
         )}
 
         {loadingCreateJob && (

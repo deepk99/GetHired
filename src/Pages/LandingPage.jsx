@@ -36,7 +36,7 @@ function LandingPage() {
             <img
               src="/getHired.png"
               alt="Hired Logo"
-              className="h-14 sm:h-24 lg:h-32"
+              className="h-12 sm:h-24 lg:h-28"
             />
           </span>
         </h1>
